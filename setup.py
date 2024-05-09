@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open("README", 'r') as f:
+    long_description = f.read()
+    
 setup(
     name = "flet_route",
     version = "0.3.3",
