@@ -1,9 +1,5 @@
 from setuptools import setup
 
-from pathlib import Path
-this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
-
 setup(
     name = "flet_route",
     version = "0.3.3",
@@ -21,7 +17,6 @@ setup(
     install_requires=[
         'click==8.1.3',
         "repath",
-        "flet",
     ],
     entry_points= {
         'console_scripts': 
